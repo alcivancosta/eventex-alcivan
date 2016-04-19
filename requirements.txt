@@ -1,4 +1,4 @@
 django==1.4.1
-djbdatabaseburl==0.2.1
+d-bdatabaseb-url==0.2.1
 Unipath==0.2.1
 psycopg2
