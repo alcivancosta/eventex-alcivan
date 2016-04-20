@@ -1,5 +1,6 @@
 # coding: utf-8
 from django.test import TestCase
+from eventex.subscriptions.forms import SubscriptionForm
 
 
 class SubscribeTest(TestCase):
@@ -25,3 +26,8 @@ class SubscribeTest(TestCase):
     def test_csrf(self):
         'Html must contain csrf token.'
         self.assertContains(self.resp, 'csrfmiddlewaretoken')
+
+    def test_has_form(self):
+        'Context must have the subscription form.'
+        form = self.resp.context['form']
+        self.assertIsInstance(form, SubscriptionForm)

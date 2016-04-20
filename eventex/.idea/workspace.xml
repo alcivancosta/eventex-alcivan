@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" afterPath="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/tests.py" afterPath="$PROJECT_DIR$/subscriptions/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/views.py" afterPath="$PROJECT_DIR$/subscriptions/views.py" />
     </list>
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="-61">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#16#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subscriptions/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -67,12 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/subscriptions/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+              <folding>
+                <element signature="e#16#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +145,10 @@
         <option value="$PROJECT_DIR$/core/templates/500.html" />
         <option value="$PROJECT_DIR$/core/templates/404.html" />
         <option value="$PROJECT_DIR$/urls.py" />
-        <option value="$PROJECT_DIR$/subscriptions/views.py" />
         <option value="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" />
         <option value="$PROJECT_DIR$/subscriptions/tests.py" />
+        <option value="$PROJECT_DIR$/subscriptions/forms.py" />
+        <option value="$PROJECT_DIR$/subscriptions/views.py" />
       </list>
     </option>
   </component>
@@ -507,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subscriptions/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-106">
@@ -525,9 +531,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="-61">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subscriptions/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subscriptions/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="e#16#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
