@@ -21,3 +21,7 @@ class SuccessTest(TestCase):
         'Context must have a subscription instance.'
         subscription = self.resp.context['subscription']
         self.assertIsInstance(subscription, Subscription)
+
+    def test_html(self):
+        'Check if subscription data was renderes.'
+        self.assertContains(self.resp, 'Henrique Bastos')
