@@ -1,8 +1,8 @@
 # coding: utf-8
 from django.http import HttpResponseRedirect
-from django.http import HttpResponse
 from django.views.generic.simple import direct_to_template
 from eventex.subscriptions.forms import SubscriptionForm
+from eventex.subscriptions.models import Subscription
 
 
 def subscribe(request):
@@ -31,5 +31,7 @@ def success(request, pk):
 
 
 def success(request, pk):
+    subscription = Subscription.objects.get(pk= pk)
     return direct_to_template(request,
-                              'subscriptions/subscription_detail.html')
+                              'subscriptions/subscription_detail.html',
+                              {'subscription': subscription})

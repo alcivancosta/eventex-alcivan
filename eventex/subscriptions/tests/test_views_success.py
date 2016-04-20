@@ -16,3 +16,8 @@ class SuccessTest(TestCase):
     def test_template(self):
         'Uses template'
         self.assertTemplateUsed(self.resp, 'subscriptions/subscription_detail.html')
+
+    def test_context(self):
+        'Context must have a subscription instance.'
+        subscription = self.resp.context['subscription']
+        self.assertIsInstance(subscription, Subscription)
