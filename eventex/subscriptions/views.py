@@ -28,3 +28,8 @@ def create(request):
 
 def success(request, pk):
     return HttpResponse()
+
+
+def success(request, pk):
+    return direct_to_template(request,
+                              'subscriptions/subscription_detail.html')
