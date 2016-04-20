@@ -6,8 +6,15 @@ from eventex.subscriptions.forms import SubscriptionForm
 
 def subscribe(request):
     if request.method == 'POST':
-        return HttpResponseRedirect('/inscricao/%d/' % 1)
+        form = SubscriptionForm(request.POST)
+
+        if not form.is_valid():
+            return direct_to_template(request,
+                                      'subscriptions/subscription_form.html',
+                                      {'form': form})
+        obj = form.save()
+        return HttpResponseRedirect('/inscricao/%d/ ' % obj.pk)
     else:
         return direct_to_template(request,
-                                  'subscriptions/subscription_form.html',
-                                  {'form': SubscriptionForm()})
+                                'subscriptions/subscription_form.html',
+                                {'form': SubscriptionForm()})
