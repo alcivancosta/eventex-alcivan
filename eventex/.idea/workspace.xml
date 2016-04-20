@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" afterPath="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/tests.py" afterPath="$PROJECT_DIR$/subscriptions/tests.py" />
     </list>
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            <state relative-caret-position="209">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscription_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subscription_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="-106">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -131,13 +133,13 @@
         <option value="$PROJECT_DIR$/core/templates/404.html" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/subscriptions/views.py" />
-        <option value="$PROJECT_DIR$/subscriptions/tests.py" />
         <option value="$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html" />
+        <option value="$PROJECT_DIR$/subscriptions/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="659" />
+    <option name="x" value="657" />
     <option name="y" value="27" />
     <option name="width" value="701" />
     <option name="height" value="739" />
@@ -331,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="659" y="27" width="701" height="739" extended-state="0" />
+    <frame x="657" y="27" width="701" height="739" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35598227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -513,18 +515,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subscriptions/tests.py">
+    <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        <state relative-caret-position="-106">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
+    <entry file="file://$PROJECT_DIR$/subscriptions/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="209">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding />
         </state>
       </provider>
