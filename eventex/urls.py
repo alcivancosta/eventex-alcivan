@@ -5,10 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       url(r'', include('eventex.core.urls', namespace='core')),
-                       url(r'^inscricao/$', 'eventex.subscriptions.views.subscribe', name='subscribe'),
-                       url(r'^inscricao/(\d+)/$', 'eventex.subscriptions.views.success', name='success'),
-    # Examples:
+    url(r'^inscricao/', include('eventex.subscriptions.urls', namespace='subscriptions')),
     # url(r'^$', 'eventex.views.home', name='home'),
     # url(r'^eventex/', include('eventex.foo.urls')),
 
@@ -17,4 +14,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+    url(r'', include('eventex.core.urls', namespace='core')),
 )
