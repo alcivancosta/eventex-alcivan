@@ -4,6 +4,7 @@ from eventex.subscriptions.models import Subscription
 
 
 class SubscriptionAdmin(admin.ModelAdmin):
-    list_display = ('name', 'email', 'cpf', 'phone', 'created_at')
+    list_display = ('name', 'cpf', 'email','phone', 'created_at')
+
 
 admin.site.register(Subscription, SubscriptionAdmin)
