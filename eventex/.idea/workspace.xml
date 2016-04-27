@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/admin.py" afterPath="$PROJECT_DIR$/subscriptions/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
