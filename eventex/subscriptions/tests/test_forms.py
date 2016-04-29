@@ -18,8 +18,6 @@ class SubscriptionFormTest(TestCase):
         form = self.make_validated_form(cpf='1234')
         self.assertItemsEqual(['cpf'], form.errors)
 
-        self.assertItemsEqual(['cpf'], form.errors)
-
     def make_validated_form(self, **kwargs):
         data = dict(name='Henrique Bastos', email='henrique@bastos.net',
                     cpf='12345678901', phone='21-96186180')
