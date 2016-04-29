@@ -3,3 +3,4 @@ dj-database-url==0.2.1
 Unipath==0.2.1
 psycopg2
 South==0.7.6
+mock==1.0b1
