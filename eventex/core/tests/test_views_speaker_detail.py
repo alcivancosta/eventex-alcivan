@@ -15,3 +15,9 @@ class SpeakerDetailTest(TestCase):
     def test_template(self):
         'Template should be core/speaker_detail.html'
         self.assertTemplateUsed(self.resp, 'core/speaker_detail.html')
+
+    def test_html(self):
+        'Html must contain data.'
+        self.assertContains(self.resp, 'Henrique Bastos')
+        self.assertContains(self.resp, 'Passionate software developer!')
+        self.assertContains(self.resp, 'http://henriquebastos.net')
