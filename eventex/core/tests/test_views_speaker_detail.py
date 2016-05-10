@@ -1,6 +1,7 @@
 # coding: utf-8
 from django.test import TestCase
 from django.core.urlresolvers import reverse as r
+from eventex.core.models import Speaker
 
 
 class SpeakerDetailTest(TestCase):
@@ -21,3 +22,8 @@ class SpeakerDetailTest(TestCase):
         self.assertContains(self.resp, 'Henrique Bastos')
         self.assertContains(self.resp, 'Passionate software developer!')
         self.assertContains(self.resp, 'http://henriquebastos.net')
+
+    def test_context(self):
+        'Speaker must be in context.'
+        speaker = self.resp.context['speaker']
+        self.assertIsInstance(speaker, Speaker)

@@ -1,3 +1,8 @@
+# coding: utf-8
 from django.db import models
 
-# Create your models here.
+
+class Speaker(object):
+    name = 'Henrique Bastos'
+    url = 'http://henriquebastos.net'
+    description = 'Passionate software developer!'
