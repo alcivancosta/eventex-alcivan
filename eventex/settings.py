@@ -14,7 +14,7 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': dj_database_url.config(
-        default= 'sqlite:///' + PROJECT_DIR.child('database.db'))
+        default='sqlite:///' + PROJECT_DIR.child('database.db'))
 }
 
 # Local time zone for this installation. Choices can be found here:
