@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="" />
+    <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../settings.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subscriptions/forms.py" afterPath="$PROJECT_DIR$/subscriptions/forms.py" />
+    </list>
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +28,7 @@
       <file leaf-file-name="test_models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="828">
               <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
               <folding>
                 <element signature="e#16#48#0" expanded="true" />
@@ -36,7 +40,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="126">
               <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#16#44#0" expanded="true" />
@@ -48,7 +52,7 @@
       <file leaf-file-name="test_forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="558">
               <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="e#16#48#0" expanded="true" />
@@ -60,18 +64,18 @@
       <file leaf-file-name="test_admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="18">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="396">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding>
                 <element signature="e#16#63#0" expanded="true" />
               </folding>
@@ -79,10 +83,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test_views_subscribe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_views_subscribe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="1296">
               <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
@@ -92,7 +106,7 @@
       <file leaf-file-name="subscription_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
+            <state relative-caret-position="90">
               <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
@@ -173,7 +187,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,10 +198,6 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.10 (/usr/bin/python2.7) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -197,43 +206,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="eventex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subscriptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subscriptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -679,7 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py" />
     <entry file="file://$PROJECT_DIR$/subscriptions/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -698,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="18">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -720,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="126">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#16#44#0" expanded="true" />
@@ -730,7 +707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_views_subscribe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="1296">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
@@ -738,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="828">
           <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
           <folding>
             <element signature="e#16#48#0" expanded="true" />
@@ -748,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/tests/test_forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="558">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="e#16#48#0" expanded="true" />
@@ -758,7 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/templates/subscriptions/subscription_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
+        <state relative-caret-position="90">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
@@ -766,11 +743,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscriptions/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        <state relative-caret-position="396">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
             <element signature="e#16#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

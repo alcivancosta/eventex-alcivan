@@ -36,11 +36,11 @@ class PhoneField(forms.MultiValueField):
     def compress(self, data_list):
         if not data_list:
             return ''
-        if data_list[0 ] in EMPTY_VALUES:
+        if data_list[0] in EMPTY_VALUES:
             raise forms.ValidationError(_(u'DDD inválido.'))
-        if data_list[1 ] in EMPTY_VALUES:
+        if data_list[1] in EMPTY_VALUES:
             raise forms.ValidationError(_(u'Número inválido.'))
-        return ' %s- %s' % tuple(data_list)
+        return ' %s-%s' % tuple(data_list)
 
 
 class SubscriptionForm(forms.ModelForm):
