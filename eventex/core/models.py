@@ -1,6 +1,8 @@
 # coding: utf-8
 from django.db import models
 from django.utils.translation import ugettext as _
+from eventex.core.managers import (EmailContactManager, PhoneContactManager, FaxContactManager)
+
 
 
 class Speaker(models.Model):
@@ -23,6 +25,11 @@ class Contact(models.Model):
     speaker = models.ForeignKey('Speaker', verbose_name=_('Palestrante'))
     kind = models.CharField(_('Tipo'), max_length=1, choices=KINDS)
     value = models.CharField(_('Valor'), max_length=255)
+
+    objects = models.Manager()
+    emails = EmailContactManager()
+    phones = PhoneContactManager()
+    faxes = FaxContactManager()
 
     def __unicode__(self):
         return self.value
