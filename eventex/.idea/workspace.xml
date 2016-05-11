@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4b8478-850a-4d48-881f-3dc9d11d5a23" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/models.py" afterPath="$PROJECT_DIR$/core/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/tests/test_models.py" afterPath="$PROJECT_DIR$/core/tests/test_models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.db" afterPath="$PROJECT_DIR$/database.db" />
     </list>
     <ignored path="eventex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="test_models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="440">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="e#16#48#0" expanded="true" />
               </folding>
@@ -56,6 +55,18 @@
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#16#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding>
+                <element signature="e#16#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -645,16 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -693,10 +694,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#16#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="440">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="e#16#48#0" expanded="true" />
           </folding>

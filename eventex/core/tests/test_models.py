@@ -36,3 +36,7 @@ class ContactModelTest(TestCase):
         contact = Contact.objects.create(speaker=self.speaker, kind='F',
                                          value='21-12345678')
         self.assertEqual(1, contact.pk)
+
+    def test_unicode(self):
+        'Speaker string representation should be the same.'
+        self.assertEqual(u'Henrique Bastos', unicode(self.speaker))
