@@ -33,3 +33,10 @@ class SpeakerDetailTest(TestCase):
         'Speaker must be in context.'
         speaker = self.resp.context['speaker']
         self.assertIsInstance(speaker, Speaker)
+
+
+class SpeakerDetailNotFound(TestCase):
+    def test_not_found(self):
+        url = r('core:speaker_detail', kwargs={'slug': 'john-doe'})
+        response = self.client.get(url)
+        self.assertEqual(404, response.status_code)
